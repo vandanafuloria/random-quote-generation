@@ -5,6 +5,7 @@
 
 body {
   background: linear-gradient(190deg, #8903c780 0%, #0697b880 100%);
+  min-width: 400px;
 }
 
 .main-page {
