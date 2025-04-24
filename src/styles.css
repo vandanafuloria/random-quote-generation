@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #8903C727;
+    background: linear-gradient(190deg, rgba(137, 3, 199, 0.5) 0%, rgba(6, 151, 184, 0.5) 100%);
+}.main-page{
+ 
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23fefefe' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+height: 100vh;
+
+}
+.quote-box{
+    max-width: 700px;
+    min-width: 200px;
+    background-color: red;
+    height: 450px;
+    margin:auto;
+    position: relative;
+    top: 10rem;
+    background-color: white;
+    text-align: center;
+    padding:3rem 1rem;
+    border-radius: 15px;
+    border:#8903c7ae 1px solid ;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    transform: scale(0.8);
+ 
+    transition: transform ease-in 0.5s;
+
+}
+.quote-box:hover{
+   transform: scale(1);
+}
+p{
+    font-family: cursive;
+    font-size: 1.5rem;
+    color:gray;
+}
+#quote{
+    padding:10px;
+    font-size: 2rem;
+    font-family: math;
+}
+#author{
+text-align: right;
+font-family: fantasy;
+}
+button{
+    width: 100px;
+    margin:auto;
+    border-radius: 15px;
+    background: #8903C727;
+  background: linear-gradient(190deg, rgba(137, 3, 199, 0.7) 0%, rgba(6, 151, 184, 0.7) 100%); 
+  border:none;
+  padding:1rem;
+  color:white;
+  cursor: pointer;
+  
+}
+button:hover{
+    background: #8903C727;
+    background: linear-gradient(190deg, rgba(137, 3, 199, 1) 0%, rgba(6, 151, 184, 1) 100%); 
+}
+ i{
+    color:#7708aa73;
+ }
+

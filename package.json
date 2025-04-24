@@ -1,0 +1,15 @@
+{
+  "name": "random-quote-generation",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "Vandana Fuloria",
+  "license": "ISC",
+  "description": "random quote generation ",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
