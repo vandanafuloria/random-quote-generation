@@ -30,11 +30,6 @@ body {
   display: flex;
   position: relative;
   top: 10rem;
-  transform: scale(1);
-}
-
-.quote-box:hover {
-  transform: scale(1.2);
 }
 
 p {
@@ -59,7 +54,6 @@ p {
 button {
   color: #fff;
   cursor: pointer;
-  z-index: -2;
   background: linear-gradient(190deg, #8903c7b3 0%, #0697b8b3 100%);
   border: none;
   border-radius: 15px;
@@ -84,9 +78,19 @@ i {
 
 .spinner {
   text-align: center;
-  z-index: 5;
-  width: 20%;
-  margin: -5rem auto;
+  background-color: #ffffffab;
+  justify-content: center;
+  align-items: center;
   display: none;
+  position: absolute;
+  inset: 0;
+}
+
+.spinner-active {
+  display: flex;
+}
+
+.spinner img {
+  width: 100px;
 }
 /*# sourceMappingURL=random-quote-generation.4d663569.css.map */
