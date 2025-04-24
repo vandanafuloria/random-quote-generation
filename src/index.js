@@ -10,28 +10,21 @@ function addToDom(obj) {
   authorEl.textContent = obj.author;
 }
 
+const showSpinner = () => spinnerEl.classList.add("spinner-active");
+const hideSpinner = () => spinnerEl.classList.remove("spinner-active");
+
 function generateQuote() {
+  showSpinner();
   const qoute = fetch("https://qapi.vercel.app/api/random")
     .then((res) => {
-      mainEl.style.background = "#FFFFFF80";
-      qoutebox.style.display = "none";
-      spinnerEl.style.display = "block";
-
       // res contain a stream of object
       return res.json(); // jsonfy it;
     })
     .then((response) => {
       addToDom(response);
-      mainEl.style.background = "";
-      qoutebox.style.display = "block";
-      spinnerEl.style.display = "none";
     })
-    .catch((err) => {
-      mainEl.style.background = "#FFFFFF80";
-      qoutebox.style.display = "none";
-      spinnerEl.style.display = "block";
-      console.log("can not load");
-    });
+    .catch((err) => {})
+    .finally(hideSpinner);
 }
 
 /************************************************* */

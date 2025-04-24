@@ -4,7 +4,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
-      "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Vandana Fuloria",
@@ -14,5 +14,6 @@
     "gh-pages": "^6.3.0",
     "parcel": "^2.14.4",
     "svgo": "^3.3.2"
-  }
+  },
+  "homepage": "https://vandanafuloria.github.io/random-quote-generation"
 }
