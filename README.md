@@ -2,7 +2,9 @@
 
 # Description
 
-This is a random quote generating project, which generates inspiration quotes and make your day full insipiration and spirit to win every battle.It also give the reference of the author.
+This is a simple yet powerful Random Quote Generator that delivers inspirational quotes to uplift your day and fuel your spirit to win every battle. ✊
+
+Each quote is accompanied by the author's name, providing context and credit to the great minds behind the words.
 
 ### Link 👉 [check live preview ](https://vandanafuloria.github.io/random-quote-generation/)
 
