@@ -5,6 +5,7 @@
 body{
     background: #8903C727;
     background: linear-gradient(190deg, rgba(137, 3, 199, 0.5) 0%, rgba(6, 151, 184, 0.5) 100%);
+    min-width: 400px;
    
 }.main-page{
  
