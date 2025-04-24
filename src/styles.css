@@ -50,6 +50,7 @@ p{
     font-size: 2rem;
     font-family: math;
     height: 200px;
+    color: #52136f;
 }
 #author{
 text-align: right;
@@ -85,5 +86,6 @@ button:hover{
  text-align: center;
    width: 20%;
  z-index: 5;
+ display: none;
 margin: -5rem auto;
  }

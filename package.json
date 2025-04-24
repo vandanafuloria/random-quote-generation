@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+      "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Vandana Fuloria",
   "license": "ISC",
   "description": "random quote generation ",
   "devDependencies": {
-    "parcel": "^2.14.4"
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.14.4",
+    "svgo": "^3.3.2"
   }
 }
