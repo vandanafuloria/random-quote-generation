@@ -10,7 +10,6 @@ function addToDom(obj) {
 function generateQuote() {
   const qoute = fetch("https://qapi.vercel.app/api/random")
     .then((res) => {
-      console.log("wainting");
       // res contain a stream of object
       return res.json(); // jsonfy it;
     })
@@ -22,4 +21,11 @@ function generateQuote() {
     });
 }
 
+/************************************************* */
+
 quoteBtn.addEventListener("click", generateQuote);
+
+document.addEventListener("keydown", (e) => {
+  console.log(e.key);
+  if (e.key === "Enter") generateQuote;
+});

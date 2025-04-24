@@ -7,7 +7,6 @@ function addToDom(obj) {
 }
 function generateQuote() {
     const qoute = fetch("https://qapi.vercel.app/api/random").then((res)=>{
-        console.log("wainting");
         // res contain a stream of object
         return res.json(); // jsonfy it;
     }).then((response)=>{
@@ -16,6 +15,10 @@ function generateQuote() {
         console.log("can not load");
     });
 }
-quoteBtn.addEventListener("click", generateQuote);
+/************************************************* */ quoteBtn.addEventListener("click", generateQuote);
+document.addEventListener("keydown", (e)=>{
+    console.log(e.key);
+    if (e.key === "Enter") generateQuote;
+});
 
 //# sourceMappingURL=random-quote-generation.579125c3.js.map

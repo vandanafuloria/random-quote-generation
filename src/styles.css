@@ -60,11 +60,13 @@ button{
   padding:1rem;
   color:white;
   cursor: pointer;
+  transition: transform 1s ease;
   
 }
 button:hover{
     background: #8903C727;
     background: linear-gradient(190deg, rgba(137, 3, 199, 1) 0%, rgba(6, 151, 184, 1) 100%); 
+    transform: scaleX(1.2);
 }
  i{
     color:#7708aa73;
